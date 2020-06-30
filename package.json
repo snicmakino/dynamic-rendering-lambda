@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chrome-aws-lambda": "^3.0.4",
+    "puppeteer-core": "^3.0.4"
+  },
+  "devDependencies": {}
+}
