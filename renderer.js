@@ -40,12 +40,6 @@ module.exports.run = async (event, context, callback) => {
             key: "Content-Type",
             value: "text/html"
           }
-        ],
-        "content-encoding": [
-          {
-            key: "Content-Encoding",
-            value: "UTF-8"
-          }
         ]
       },
       body: "<!doctype html>" + (await getContent(request))
